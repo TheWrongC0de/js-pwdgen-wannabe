@@ -2,10 +2,6 @@ var nome = prompt ("scrivi qui il tuo nome");
 
 console.log(nome);
 
-var ciao = "ciao " + prompt;
-
-console.log(ciao);
-
 var cognome = prompt ("mi serve anche il tuo cognome")
 
 console.log(cognome);
@@ -13,3 +9,5 @@ console.log(cognome);
 var colore = prompt ("ora il tuo colore preferito")
 
 console.log(colore);
+
+document.getElementById('mioid').innerHTML = nome + cognome + colore + "<h6>19</h6>";
