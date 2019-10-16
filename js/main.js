@@ -10,4 +10,4 @@ var colore = prompt ("ora il tuo colore preferito")
 
 console.log(colore);
 
-document.getElementById('mioid').innerHTML = nome + cognome + colore + "<h6>19</h6>";
+document.getElementById('mioid').innerHTML = nome + cognome + colore + "<strong>19</strong>";
